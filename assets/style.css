@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Font-family bold";
+    src: url(fonts/AtkinsonHyperlegible-Bold.ttf);
+  }
+
+@font-face {
+    font-family: "Regular";
+    src: url(fonts/AtkinsonHyperlegible-Regular.ttf);
+  }
+.line{
+    margin: 80px;
+}
+body{
+    background-color:#f3eee4;
+    height: 100vh;
+    margin: 0px;
+}
+
+.caption1{
+    font-family: "Font-family bold";
+    color: #1c2334;
+    padding-bottom: 40px;
+    font-size: 65px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    line-height: 0px;
+}
+.caption2{
+    font-family: "Font-family bold";
+    font-size: 50px;
+   
+    color:#202739;
+}
+.date{
+    color: #bb1450;
+    font-family: "Regular";
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: -25px;
+}
+
+.description{
+    font-family: "Regular";
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.ps{
+    font-size: medium;
+}
+.button1{
+    color: white;
+    background-color: #1c2334;
+    border: solid #f56ce9 0.1px;
+    border-radius: 25px;
+
+    font-size: 15px;
+    font-family: "Font-family bold";
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px
+    
+}
+.button2{
+        border: solid #1c2334 0.1px;
+        border-radius: 25px;
+
+        background-color: #e5bf55;
+        color: #1c2334;
+
+      
+        font-size: 15px;
+        font-family: "Font-family bold";
+       
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-bottom: 10px;
+        padding-right: 40px
+        
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstbox{
+    margin-right: 20px;
+}
+.yellow{
+    background-color: #e5bf55;
+    height: 500px;
+    width: 1500px;
+    margin-top: 100px;
+}
+.Andy{
+    font-family: "Font-family bold";
+    padding-top: 50px;
+    font-size: 60px;
+    padding-bottom: 0px;
+}
+.ps{
+    font-family: "Regular";
+    padding-top: 1px;
+}
+.last{
+    font-family: "Font-family bold";
+    font-size: 12px;
+}
+.image{
+    width:415px;
+    height:160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.imgtext{
+    font-size: 22px;
+    color: white;
+    font-family: "Regular";
+}
+.text{
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+    background-color: #1c2334;
+    width:380px;
+    height: 110px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.box{
+    transform: translate(1020px);
+    margin-top: -400px;
+}
